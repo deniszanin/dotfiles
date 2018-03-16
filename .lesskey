@@ -1,0 +1,11 @@
+#"""""""""""""""""""""""""""""""""""""" 
+#" LESSKEY file:
+#"
+#" Denis Zanin
+#" https://github.com/deniszanin/dotfiles
+#" 
+#""""""""""""""""""""""""""""""""""""""
+#
+#env
+LESSHISTSIZE=0
+LESSHISTFILE=/dev/null
