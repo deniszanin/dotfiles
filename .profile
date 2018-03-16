@@ -35,8 +35,8 @@ if [ -d "/usr/local/go/bin" ] ; then
 fi
 
 # motd.d message
-if [ -f "$HOME/.dotfiles/motd.ascii" ]; then
+if [ -f "$HOME/motd.ascii" ]; then
     clear;
     clshist;
-    echo -e "$(cat $HOME/.dotfiles/motd.ascii)";
+    echo -e "$(cat $HOME/motd.ascii)";
 fi
