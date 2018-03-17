@@ -23,42 +23,42 @@ if version >= 700
 endif
 
 " Background and menu colors
-hi Cursor           guifg=NONE guibg=#FFFFFF ctermbg=255 gui=none
-hi Normal           guifg=#FFFFFF guibg=#000400 gui=none ctermfg=255 ctermbg=16 cterm=none
-hi NonText          guifg=#FFFFFF guibg=#0F130F gui=none ctermfg=255 ctermbg=233 cterm=none
-hi LineNr           guifg=#303330 guibg=#191D19 gui=none ctermfg=236 ctermbg=234 cterm=none
+hi Cursor           guifg=NONE guibg=#FFFFFF ctermbg=255 gui=NONE
+hi Normal           guifg=#FFFFFF guibg=#000400 gui=NONE ctermfg=255 ctermbg=16 cterm=NONE
+hi NonText          guifg=#FFFFFF guibg=#0F130F gui=NONE ctermfg=255 ctermbg=233 cterm=NONE
+hi LineNr           guifg=#303330 guibg=#191D19 gui=NONE ctermfg=236 ctermbg=234 cterm=NONE
 hi StatusLine       guifg=#FFFFFF guibg=#002933 gui=italic ctermfg=255 ctermbg=235 cterm=italic
-hi StatusLineNC     guifg=#FFFFFF guibg=#282C28 gui=none ctermfg=255 ctermbg=235 cterm=none
-hi VertSplit        guifg=#FFFFFF guibg=#191D19 gui=none ctermfg=255 ctermbg=234 cterm=none
-hi Folded           guifg=#FFFFFF guibg=#000400 gui=none ctermfg=255 ctermbg=16 cterm=none
+hi StatusLineNC     guifg=#FFFFFF guibg=#282C28 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
+hi VertSplit        guifg=#FFFFFF guibg=#191D19 gui=NONE ctermfg=255 ctermbg=234 cterm=NONE
+hi Folded           guifg=#FFFFFF guibg=#000400 gui=NONE ctermfg=255 ctermbg=16 cterm=NONE
 hi Title            guifg=#00C1FF guibg=NONE	gui=bold ctermfg=39 ctermbg=NONE cterm=bold
-hi Visual           guifg=#66FFF4 guibg=#323232 gui=none ctermfg=87 ctermbg=236 cterm=none
-hi SpecialKey       guifg=#3D9BE8 guibg=#0F130F gui=none ctermfg=68 ctermbg=233 cterm=none
-"hi DiffChange       guibg=#4C4F00 gui=none ctermbg=58 cterm=none
-"hi DiffAdd          guibg=#25284C gui=none ctermbg=235 cterm=none
-"hi DiffText         guibg=#663466 gui=none ctermbg=241 cterm=none
-"hi DiffDelete       guibg=#3F0300 gui=none ctermbg=52 cterm=none
+hi Visual           guifg=#66FFF4 guibg=#323232 gui=NONE ctermfg=87 ctermbg=236 cterm=NONE
+hi SpecialKey       guifg=#3D9BE8 guibg=#0F130F gui=NONE ctermfg=68 ctermbg=233 cterm=NONE
+"hi DiffChange       guibg=#4C4F00 gui=NONE ctermbg=58 cterm=NONE
+"hi DiffAdd          guibg=#25284C gui=NONE ctermbg=235 cterm=NONE
+"hi DiffText         guibg=#663466 gui=NONE ctermbg=241 cterm=NONE
+"hi DiffDelete       guibg=#3F0300 gui=NONE ctermbg=52 cterm=NONE
  
-hi DiffChange       guibg=#4C4C09 gui=none ctermbg=234 cterm=none
-hi DiffAdd          guibg=#252556 gui=none ctermbg=17 cterm=none
-hi DiffText         guibg=#66326E gui=none ctermbg=22 cterm=none
-hi DiffDelete       guibg=#3F000A gui=none ctermbg=0 ctermfg=196 cterm=none
-hi TabLineFill      guibg=#5E5E5E gui=none ctermbg=235 ctermfg=228 cterm=none
+hi DiffChange       guibg=#4C4C09 gui=NONE ctermbg=234 cterm=NONE
+hi DiffAdd          guibg=#252556 gui=NONE ctermbg=17 cterm=NONE
+hi DiffText         guibg=#66326E gui=NONE ctermbg=22 cterm=NONE
+hi DiffDelete       guibg=#3F000A gui=NONE ctermbg=0 ctermfg=196 cterm=NONE
+hi TabLineFill      guibg=#5E5E5E gui=NONE ctermbg=235 ctermfg=228 cterm=NONE
 hi TabLineSel       guifg=#66FFF4 gui=bold ctermfg=87 cterm=bold
 
 
 " Syntax highlighting
-hi Comment guifg=#00C1FF gui=none ctermfg=39 cterm=none
-hi Constant guifg=#3D9BE8 gui=none ctermfg=68 cterm=none
-hi Number guifg=#3D9BE8 gui=none ctermfg=68 cterm=none
-hi Identifier guifg=#00FF8C gui=none ctermfg=48 cterm=none
-hi Statement guifg=#88FFB4 gui=none ctermfg=121 cterm=none
-hi Function guifg=#2EFFFF gui=none ctermfg=51 cterm=none
-hi Special guifg=#22C3E3 gui=none ctermfg=38 cterm=none
-hi PreProc guifg=#22C3E3 gui=none ctermfg=38 cterm=none
-hi Keyword guifg=#88FFB4 gui=none ctermfg=121 cterm=none
-hi String guifg=#66FFF4 gui=none ctermfg=87 cterm=none
-hi Type guifg=#008AFC gui=none ctermfg=33 cterm=none
-hi pythonBuiltin guifg=#00FF8C gui=none ctermfg=48 cterm=none
-hi TabLineFill guifg=#286861 gui=none ctermfg=23 cterm=none
+hi Comment guifg=#00C1FF gui=NONE ctermfg=39 cterm=NONE
+hi Constant guifg=#3D9BE8 gui=NONE ctermfg=68 cterm=NONE
+hi Number guifg=#3D9BE8 gui=NONE ctermfg=68 cterm=NONE
+hi Identifier guifg=#00FF8C gui=NONE ctermfg=48 cterm=NONE
+hi Statement guifg=#88FFB4 gui=NONE ctermfg=121 cterm=NONE
+hi Function guifg=#2EFFFF gui=NONE ctermfg=51 cterm=NONE
+hi Special guifg=#22C3E3 gui=NONE ctermfg=38 cterm=NONE
+hi PreProc guifg=#22C3E3 gui=NONE ctermfg=38 cterm=NONE
+hi Keyword guifg=#88FFB4 gui=NONE ctermfg=121 cterm=NONE
+hi String guifg=#66FFF4 gui=NONE ctermfg=87 cterm=NONE
+hi Type guifg=#008AFC gui=NONE ctermfg=33 cterm=NONE
+hi pythonBuiltin guifg=#00FF8C gui=NONE ctermfg=48 cterm=NONE
+hi TabLineFill guifg=#286861 gui=NONE ctermfg=23 cterm=NONE
 
