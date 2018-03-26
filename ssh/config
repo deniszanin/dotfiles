@@ -1,0 +1,5 @@
+# Github ssh keys
+Host github.com
+    Hostname github.com
+    User git
+    IdentityFile ~/.ssh/your_ssh_key_for_github
