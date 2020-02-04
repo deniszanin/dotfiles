@@ -1,0 +1,12 @@
+system_charset UTF-8
+document_charset UTF-8
+display_charset UTF-8
+
+user_agent Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0
+
+accept_language en-US,en;q=0.5
+accept_encoding gzip, deflate
+accept_media text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+accept_bad_cookie 0
+accept_cookie 0
