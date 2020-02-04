@@ -11,8 +11,9 @@ alias ll='ls -FGlAhpa'
 alias lk='ls -al'
 
 alias df='df -h'
-alias rm='srm -v' # Requires secure-delete
-alias oldrm='/bin/rm -fv'
+#alias rm='srm -v' # Requires secure-delete package
+#alias rm='rm -fv'
+#alias oldrm='/bin/rm -fv'
 alias mv='mv -iv'
 alias cp='cp -iv'
 alias ln='ln -i'
@@ -22,7 +23,7 @@ alias diff='colordiff'
 alias which='type -all'
 alias mkdir='mkdir -pv'
 alias less='less -FSRXc'
-alias clshist='cat /dev/null > ~/.bash_history && history -c && history -w;rm ~/.viminfo;rm ~/.bash_history;rm -R ~/.mytrashremove;clear'
+alias clshist='cat /dev/null > ~/.bash_history && history -c && history -w;rm ~/.vim/cache/viminfo;rm ~/.bash_history;rm -R ~/.mytrashremove;clear'
 
 alias ping='ping -c5 -s.5'
 
@@ -38,3 +39,8 @@ alias numFiles='echo $(ls -1 | wc -l)'      # count of non-hidden files in curre
 mans() {
     man $1 | grep -iC2 --color=always $2 | less
 }
+
+#################
+# CUSTOM aliases
+#
+
