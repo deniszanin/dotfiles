@@ -6,12 +6,13 @@ Basic configuration files that I use daily to increase privacy on my local envir
 
 # What is it?
 
-This setup includes plugins and configuration file for VIM. VIM Plugins:
+This setup includes plugins and configuration files for VIM editor. Plugins are optional:
+ - Pathogen
  - NerdTree
  - Tagbar
  - Neocomplete
  - Vim-airline 
- - Nerdfonts and 
+ - Nerdfonts 
  - Devicons 
 
 It is also included configuration files for:
