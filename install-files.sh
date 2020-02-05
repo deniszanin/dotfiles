@@ -287,7 +287,8 @@ if [ $VIMPLUGIN_NERDFONTS -eq 1 ]; then
     wait
     echo ""
     echo " ---- downloaded!"
-    echo " ---- executing NERDFONTS installer..."
+    echo " ---- executing NERDFONTS installer in background..."
+    echo " ---- wait!"
     echo ""
     chmod +x $DOTFILES_DIR/.temp-nerdfonts/install.sh
     $DOTFILES_DIR/.temp-nerdfonts/./install.sh --quiet
