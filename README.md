@@ -1,5 +1,41 @@
-# dotfiles
-Basic configuration files used daily to increase privacy on local environment. 
+dotFILES
+--------
+# Intro
+
+Basic configuration files that I use daily to increase privacy on my local environment (only works in Ubuntu or Debian distros).
+
+# What is it?
+
+This setup includes plugins and configuration file for VIM. VIM Plugins:
+ - NerdTree
+ - Tagbar
+ - Neocomplete
+ - Vim-airline 
+ - Nerdfonts and 
+ - Devicons 
+
+It is also included configuration files for:
+ - cURL
+ - GnuPG
+ - W3M browser
+ - WGet
+
+# Install
+
+To install, clone this repo:
+
+```
+git clone https://github.com/deniszanin/dotfiles.git $HOME/install-dotfiles
+```
+
+And then, execute the script to install:
+
+```
+chmod +x $HOME/install-dotfiles/install-files.sh
+./install-files.sh
+```
+
+# Notes
 
 On **debian**, use `apt-get install secure-delete` to install `srm` command (aliased on *.bashrc*) which improves security removing filesi for non-SSD machines.
 

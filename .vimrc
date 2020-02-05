@@ -137,7 +137,7 @@ syntax on
 "   snazzy color option:
 "       https://raw.githubusercontent.com/connorholyday/vim-snazzy/master/colors/snazzy.vim
 "
-"colorscheme snazzy-mod
+"colorscheme snazzy
 colorscheme ohgen006
 
 " Set extra options when running in GUI mode
