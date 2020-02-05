@@ -180,7 +180,7 @@ cp .vimrc_noplugin $DOTFILES_DIR/vimrc_noplugin
 cp .w3mconfig $DOTFILES_DIR/w3mconfig
 cp .wgetrc $DOTFILES_DIR/wgetrc
 wait
-cp -R .vim $DOTFILES_DIR/vim
+cp -R vim $DOTFILES_DIR/vim
 cp -f .vim_colortheme_ohgen006.vim $DOTFILES_DIR/vim/colors/ohgen006.vim
 cp -R ssh $DOTFILES_DIR/ssh
 cp -R gnupg $DOTFILES_DIR/gnupg
