@@ -238,12 +238,12 @@ else
     echo " -- Downloading and installing selected VIM plugins:"
 fi
 
-if ! [ -d $DOTFILES_DIR/.vim/autoload ]; then
-    mkdir -p $DOTFILES_DIR/.vim/autoload
+if ! [ -d $HOME/.vim/autoload ]; then
+    mkdir -p $HOME/.vim/autoload
 fi
 
-if ! [ -d $DOTFILES_DIR/.vim/bundle ]; then
-    mkdir -p $DOTFILES_DIR/.vim/bundle
+if ! [ -d $HOME/.vim/bundle ]; then
+    mkdir -p $HOME/.vim/bundle
 fi
 
 wait
