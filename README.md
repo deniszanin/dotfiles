@@ -7,13 +7,14 @@ Basic configuration files that I use daily to increase privacy on my local envir
 # What is it?
 
 This setup includes plugins and configuration files for VIM editor. Plugins are optional:
- - Pathogen
- - NerdTree
- - Tagbar
- - Neocomplete
- - Vim-airline 
- - Nerdfonts 
- - Devicons 
+ - [Pathogen](https://www.github.com/tpope/vim-pathogen)
+ - [NerdTree](https://www.github.com/scrooloose/nerdtree)
+ - [Tagbar](https://www.github.com/majutsushi/tagbar)
+ - [Neocomplete](https://www.github.com/Shougo/neocomplete.vim)
+ - [Vim-airline](https://www.github.com/vim-airline/vim-airline)
+ - [Nerdfonts](https://www.github.com/ryanoasis/nerd-fonts)
+ - [Devicons](https://www.github.com/ryanoasis/vim-devicons)
+ - [Snazzy Theme](https://www.github.com/SolomonSklash/vim-snazzy)
 
 It is also included configuration files for:
  - cURL
@@ -38,6 +39,6 @@ chmod +x $HOME/install-dotfiles/install-files.sh
 
 # Notes
 
-On **debian**, use `apt-get install secure-delete` to install `srm` command (aliased on *.bashrc*) which improves security removing filesi for non-SSD machines.
+On **Debian** or **Ubuntu**, use `apt-get install secure-delete` to install `srm` command (aliased on *.bashrc*) which improves security removing filesi for non-SSD machines.
 
 Note: it's probably better not to use *secure-delete* on SSDs.
