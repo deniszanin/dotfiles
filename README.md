@@ -6,21 +6,24 @@ Basic configuration files that I use daily to increase privacy on my local envir
 
 # What is it?
 
-This setup includes plugins and configuration files for VIM editor. Plugins are optional:
- - [Pathogen](https://www.github.com/tpope/vim-pathogen)
- - [NerdTree](https://www.github.com/scrooloose/nerdtree)
- - [Tagbar](https://www.github.com/majutsushi/tagbar)
- - [Neocomplete](https://www.github.com/Shougo/neocomplete.vim)
- - [Vim-airline](https://www.github.com/vim-airline/vim-airline)
- - [Nerdfonts](https://www.github.com/ryanoasis/nerd-fonts)
- - [Devicons](https://www.github.com/ryanoasis/vim-devicons)
- - [Snazzy Theme](https://www.github.com/SolomonSklash/vim-snazzy)
+This setup includes plugins and configuration files for VIM editor.
+It also includes a script file to easily install all files and plugins.
+
+Plugins are optional:
+- [Pathogen](https://www.github.com/tpope/vim-pathogen)
+- [NerdTree](https://www.github.com/scrooloose/nerdtree)
+- [Tagbar](https://www.github.com/majutsushi/tagbar)
+- [Neocomplete](https://www.github.com/Shougo/neocomplete.vim)
+- [Vim-airline](https://www.github.com/vim-airline/vim-airline)
+- [Nerdfonts](https://www.github.com/ryanoasis/nerd-fonts)
+- [Devicons](https://www.github.com/ryanoasis/vim-devicons)
+- [Snazzy Theme](https://www.github.com/SolomonSklash/vim-snazzy)
 
 It is also included configuration files for:
- - cURL
- - GnuPG
- - W3M browser
- - WGet
+- cURL
+- GnuPG
+- W3M browser
+- WGet
 
 # Install
 
