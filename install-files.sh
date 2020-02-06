@@ -16,11 +16,31 @@ VIMPLUGIN_NERDFONTS=0
 VIMPLUGIN_AIRLINE=0
 VIMPLUGIN_SNAZZY=1
 SRM_DISABLE=0
+DISTRO_OSNAME="Linux"
 
 # User, NOT ROOT.
 if [[ $EUID -eq 0 ]]; then
 	echo " * You must run as user, not root."
 	echo " * Leaving..."
+    exit 1
+fi
+
+# Check which distro user is using.
+if [ -f /etc/os-release ]; then
+    . /etc/os-release
+    DISTRO_OSNAME=$NAME
+elif [ -f /etc/lsb-release ]; then
+    . /etc/lsb-release
+    DISTRO_OSNAME=$DISTRIB_ID
+elif [ -f /etc/debian-version ]; then
+    DISTRO_OSNAME="Debian"
+else
+    DISTRO_OSNAME=$(uname -s)
+fi
+
+if ! [[ $DISTRO_OSNAME = "Debian" || $DISTRO_OSNAME = "Debian GNU/Linux" || $DISTRO_OSNAME = "Ubuntu" ]]; then
+    echo " * This Linux distro is not supported!"
+    echo " * Exiting..."
     exit 1
 fi
 
