@@ -34,6 +34,7 @@ And then, execute the script to install:
 
 ```
 chmod +x $HOME/install-dotfiles/install-files.sh
+cd $HOME/install-dotfiles
 ./install-files.sh
 ```
 
