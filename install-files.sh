@@ -328,7 +328,7 @@ fi
 
 if [ $VIMPLUGIN_SNAZZY -eq 1 ]; then
     echo " --- downloading and installing SNAZZY THEME plugin..."
-    git clone --quiet https://github.com/SolomonSklash/vim-snazzy.git $HOME/.vim/bundle/vim-snazzy
+    git clone --quiet https://github.com/connorholyday/vim-snazzy.git $HOME/.vim/bundle/vim-snazzy
     wait
 fi
 

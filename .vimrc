@@ -16,7 +16,7 @@
 "       https://github.com/ryanoasis/nerd-fonts
 "       https://github.com/ryanoasis/vim-devicons
 "       https://github.com/vim-airline/vim-airline
-"       https://github.com/SolomonSklash/vim-snazzy
+"       https://github.com/connorholyday/vim-snazzy
 "
 "
 
