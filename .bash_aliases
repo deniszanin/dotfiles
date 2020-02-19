@@ -19,13 +19,14 @@ alias cp='cp -iv'
 alias ln='ln -i'
 
 alias v='vim'
+alias wget='wget --hsts-file ~/.tmpcached/wget-hsts'
 
 alias sha1='openssl sha1'
 alias diff='colordiff'
 alias which='type -all'
 alias mkdir='mkdir -pv'
-alias less='less -FSRXc'
-alias clshist='cat /dev/null > ~/.bash_history && history -cw;rm ~/.vim/cache/viminfo;rm ~/.bash_history;rm -R ~/.mytrashremove;clear'
+alias less='less -SRXIc'
+alias clshist='cat /dev/null > ~/.bash_history && history -cw;rm -f ~/.vim/cache/viminfo;rm -f ~/.tmpcached/wget-hsts;rm -f ~/.lesshst;rm -f ~/.bash_history;rm -Rf ~/.tmpcached;clear'
 
 alias ping='ping -c5 -s.5'
 

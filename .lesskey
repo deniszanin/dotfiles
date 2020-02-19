@@ -5,7 +5,26 @@
 #" https://github.com/deniszanin/dotfiles
 #" 
 #""""""""""""""""""""""""""""""""""""""
+# Environment variables for less.
 #
-#env
+# The LESSCHARSET environment variable may be used to select a character set.
+LESSCHARSET=utf-8
+
+# The maximum number of commands to save in the history file (default is 100).
 LESSHISTSIZE=0
+
+# Name of the history file used to remember search commands and shell commands
+# between invocations of less.
 LESSHISTFILE=/dev/null
+
+# Editor prototype string (used for the v command. 
+LESSEDIT=vim
+
+# The name of the editor (used for the v command).
+EDITOR=vim
+
+# When the environment variable LESSSECURE is set to 1, less runs in a 'secure'
+# mode. This means these features are disabled: the shell command, the pipe
+# command, the examine command, the editing command, log files, use of lesskey
+# files, use of tags files metacharacters in filenames.
+LESSSECURE=1
