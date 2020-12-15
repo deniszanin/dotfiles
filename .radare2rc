@@ -1,0 +1,23 @@
+#"""""""""""""""""""""""""""""""""""""" 
+#" RADARE2RC file:
+#"
+#" Denis Zanin
+#" https://github.com/deniszanin/dotfiles
+#" 
+#""""""""""""""""""""""""""""""""""""""
+#
+e cfg.editor=vi
+e cfg.fortunes=tips,fun,nsfw,creepy
+e cmd.stack=true
+e scr.utf8=true
+e scr.utf8.curvy=true
+e scr.color=3
+e scr.color.grep=true
+e scr.color.pipe=true
+e scr.highlight.grep=true
+e scr.confirmquit=true
+e scr.prompt.mode=true
+e scr.prompt.popup=true
+e scr.prompt.vi=true
+
+eco monokai
